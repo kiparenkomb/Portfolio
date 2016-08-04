@@ -44,9 +44,6 @@ $(function() {
   
 
 // ------animation offer------
-
-
-
 $(window).scroll(function(){
   $('.offer .left').animateOnScroll({
     scrollDownEffect: 'fadeInUp left-a'
@@ -65,10 +62,9 @@ $(window).scroll(function(){
   });
 });
 
+
+
 // ------animation news------
-
-
-
 $(window).scroll(function(){
   $('.news .one .step').animateOnScroll({
     scrollDownEffect: 'fadeInUp one-b'
@@ -90,5 +86,38 @@ $(window).scroll(function(){
 $(window).scroll(function(){
   $('.news .four .step').animateOnScroll({
     scrollDownEffect: 'fadeInUp four-b'
+  });
+});
+
+
+
+// ------smooth scrolling------
+$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+ e.preventDefault();
+ 
+var target = this.hash,
+ $target = $(target);
+ 
+$('html, body').stop().animate({
+ 'scrollTop': $target.offset().top
+ }, 1500, 'swing', function () {
+ window.location.hash = target;
+ });
+ });
+
+
+// ------smooth scrolling------
+$(window).scroll(function(){
+if ($(window).scrollTop() > 400) {
+  $('.block2').addClass('scroll_top');
+ };
+if ($(window).scrollTop() <= 400) {
+  $('.scroll_top').removeClass('scroll_top');
+ };
+})
+
+$(window).scroll(function(){
+  $('.scroll_top').animateOnScroll({
+    scrollDownEffect: 'fadeInUp top-a'
   });
 });

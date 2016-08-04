@@ -57,6 +57,11 @@
 	clear: both;
 	visibility: hidden;
 }
+
+.block2 {
+	display: none;
+}
+
 .kegl {
 	padding: 45px 10px;
 }
@@ -911,6 +916,49 @@ footer .information {
 
 @media screen and (min-width: 1024px) {
 
+	.scroll_top {
+		display: block;
+		position: fixed;
+		width: 50px;
+		height: 50px;
+		bottom: 20px;
+		right: 20px;
+		opacity: 0;
+	}
+
+	@-webkit-keyframes topA {
+	    from {
+	        opacity: 0;
+	    }
+	    to {
+	        opacity: 1;
+	    }
+	} 
+	
+	@keyframes topA {
+	    from {
+	        opacity: 0;
+	    }
+	    to {
+	        opacity: 1;
+	    }
+	}
+	
+	.top-a {
+	    animation: topA 3s forwards;
+	    animation-timing-function: ease-in;
+	}
+
+	.block2 i {
+		font-size: 40px;
+		color: rgba(248,205,83,0.5);
+	}
+
+	.block2 i:hover {
+		font-size: 40px;
+		color: rgba(248,205,83,1);
+	}
+
 	.contacts {
 	    padding-right: 0px;
 	}
@@ -1038,6 +1086,7 @@ footer .information {
 		left: 10%;
 		background: url("../img/left.png") no-repeat;
 		background-size: 40px 40px;
+		opacity: 0.8;
 		outline: none;
 		-webkit-transition: all 0.3s ease-out;
 	    -moz-transition: all 0.3s ease-out;
@@ -1047,7 +1096,8 @@ footer .information {
 	}
 	
 	.slick-prev:hover {
-		background-size: 39px 39px;
+		transform: scale(1.2);
+		opacity: 1;
 	}
 
 	.slick-next{
@@ -1056,6 +1106,7 @@ footer .information {
 		left: 85%;
 		background: url("../img/right.png") no-repeat;
 		background-size: 40px 40px;
+		opacity: 0.8;
 		outline: none;
 		-webkit-transition: all 0.3s ease-out;
 	    -moz-transition: all 0.3s ease-out;
@@ -1065,7 +1116,8 @@ footer .information {
 	}
 
 	.slick-next:hover {
-		background-size: 39px 39px;
+		transform: scale(1.2);
+		opacity: 1;
 	}
 
 	
