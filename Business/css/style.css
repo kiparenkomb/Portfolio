@@ -182,12 +182,21 @@ header {
 	left: 0;
 }
 
-header .logo{
+header .logo {
 	width: 200px;
     margin: 0 auto;
+    position: relative;
 }
 
-header .logo a {
+header .logo a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+header .logo p:first-child {
 	color: #424242;
 	font-size: 30px;
 	font-weight: bolder;
@@ -372,12 +381,12 @@ header nav ul li a:hover {
 	transform: translate(-50%, -50%);
 	width: 7px;
 	height: 7px;
-	background: #fff;
+	background: #f8cd53;
 	border-radius: 50%
 }
 
 .baner-content .slick-dots .slick-active button{
-	 border: 2px solid #fff;
+	 border: 2px solid #4a98bb;
 	 border-radius: 100%;
 }
 
@@ -391,6 +400,7 @@ header nav ul li a:hover {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* .offer > h2 {
@@ -1317,7 +1327,7 @@ footer .information {
 	}
 	
 	.center-a {
-	    animation: centerA 4s forwards;
+	    animation: centerA 2s forwards;
 	    animation-timing-function: ease-in;
 	}
 	
