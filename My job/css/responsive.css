@@ -34,13 +34,20 @@
 	  padding-left: 15px;
 	}
 
+	.slicknav_nav, 
+	.slicknav_nav ul {
+	  background: rgba(44, 54, 61, 0.9);
+      margin-top: 65px;
+      padding-top: 30px;
+      height: 100vh;
+	}
 
-	#alegain-top-section .alegain-top-wrap {
+	#my_job-top-section .my_job-top-wrap {
 	  margin-top: 60px;
 	  margin-bottom: 20px;
 	}
 
-	#alegain-top-section .alegain-top-image {
+	#my_job-top-section .my_job-top-image {
 	  margin: 0 auto;
 	}
 
@@ -50,28 +57,28 @@
 	  padding: 0;
 	}
 
-	#join-now .alegain-top-form input[type="email"] {
+	#join-now .my_job-top-form input[type="email"] {
 	  width: 200px;
 	}
 
-	#join-now .alegain-top-form form .btn-submit {
+	#join-now .my_job-top-form form .btn-submit {
 	  width: 25%;
 	}
 
-	#alegain-work .single-work {
+	#my_job-work .single-work {
 	  text-align: center;
 	}
 
-	#alegain-work .single-work-img {
+	#my_job-work .single-work-img {
 	    display: none;
 	}
 
-	#alegain-work .single-work img {
+	#my_job-work .single-work img {
 	  float: none;
 	  margin: 0 auto;
 	}
 
-	#alegain-work .single-work h3, #alegain-work .single-work p {
+	#my_job-work .single-work h3, #my_job-work .single-work p {
 	  width: 100%;
 	}
 
@@ -97,8 +104,7 @@
 		background: transparent none repeat scroll 0 0;
 		display: block;
 		position: absolute;
-		right: 5%;
-		width: 90%;
+		width: 100%;
 		z-index: 999999;
 	}
 
@@ -119,7 +125,9 @@
 	  	padding: 0.58em 0.625em;
 	}
 
-
+	#my_job-search .single-search-img {
+		display: none;
+	}
 
 }
 
@@ -176,30 +184,33 @@
 
 	.slicknav_nav, 
 	.slicknav_nav ul {
-	  padding-top: 5px;
+	  background: rgba(44, 54, 61, 0.9);
+      margin-top: 65px;
+      padding-top: 30px;
+      height: 100vh;
 	}
 
-	#alegain-top-section .alegain-top-wrap h2 {
+	#my_job-top-section .my_job-top-wrap h2 {
 	  font-size: 30px;
 	}
 
-	#alegain-top-section .alegain-top-wrap p {
+	#my_job-top-section .my_job-top-wrap p {
 	  padding: 0 25px;
 	}
 
-	#alegain-top-section .alegain-top-wrap {
+	#my_job-top-section .my_job-top-wrap {
   	  margin-bottom: 60px;
   	  margin-top: 60px;
 	}
 
-	#alegain-top-section .alegain-top-image {
+	#my_job-top-section .my_job-top-image {
 	  bottom: 0px;
 	  height: auto;
 	  width: auto;
 	  margin: 60px auto 0;
 	}
 
-	#alegain-top-section .alegain-top-image img {
+	#my_job-top-section .my_job-top-image img {
 	  display: block;
 	  height: auto;
 	  margin: 0 auto;
@@ -212,11 +223,11 @@
 	  text-align: center;
 	}
 
-	.alegain-top-form input {
+	.my_job-top-form input {
 	  width: 70%;
 	}
 
-	.alegain-top-form form .btn-submit {
+	.my_job-top-form form .btn-submit {
 	  width: 30%;
 	}
 
@@ -225,7 +236,7 @@
 	  margin-top: 60px;
 	}
 
-	#alegain-featured .single-feature .featured-img {
+	#my_job-featured .single-feature .featured-img {
 	  margin: 30px auto;
 	}
 
@@ -242,30 +253,30 @@
 	  font-size: 25px;
 	}
 
-	#alegain-work .single-work {
+	#my_job-work .single-work {
 	  padding-bottom: 30px;
 	  text-align: center;
 	}
 
-	#alegain-work .row.pd-top-80 {
+	#my_job-work .row.pd-top-80 {
 		padding-top: 60px!important;
 	}
 
-	#alegain-work .single-work img {
+	#my_job-work .single-work img {
 	  float: none;
 	  margin: 0 auto;
 	}
 
-	#alegain-work .single-work h3 {
+	#my_job-work .single-work h3 {
 	  margin-bottom: 10px;;
 	}
 
-	#alegain-work .single-work h3, #alegain-work .single-work p {
+	#my_job-work .single-work h3, #my_job-work .single-work p {
 	  float: none;
 	  width: auto;
 	}
 
-	#alegain-work .single-work-img {
+	#my_job-work .single-work-img {
 	  display: none;
 	}
 
@@ -326,8 +337,17 @@
 	  text-align: center;
 	}
 
+	#my_job-search .single-search-img {
+		display: none;
+	}
 
+	#my_job-search .single-search i {
+		padding-left: 0;
+	}
 
+	#my_job-search .single-search p {
+		width: 100%;
+	}
 
 
 }
@@ -339,11 +359,11 @@
 @media only screen and (min-width: 480px) and (max-width: 599px) {
 
 
-	#alegain-top-section .alegain-top-image {
+	#my_job-top-section .my_job-top-image {
 	  bottom: -15px;
 	}
 
-	#alegain-top-section .alegain-top-wrap p {
+	#my_job-top-section .my_job-top-wrap p {
 	  padding: 0 85px;
 	}
 
@@ -351,9 +371,10 @@
 	  margin: 0 0 30px;
 	}
 
-	#alegain-top-section .alegain-top-image img {
+	#my_job-top-section .my_job-top-image img {
 	  height: 210px;
 	}
+	
 
 
 }
@@ -364,15 +385,15 @@
 
 @media only screen and (min-width: 600px) and (max-width: 767px) { 
 
-	#alegain-top-section .alegain-top-wrap p {
+	#my_job-top-section .my_job-top-wrap p {
 	  padding: 0;
 	}
 
-	#alegain-top-section .alegain-top-image {
+	#my_job-top-section .my_job-top-image {
 	  bottom: -15px;
 	}
 
-	#alegain-top-section .alegain-top-image img {
+	#my_job-top-section .my_job-top-image img {
 	  display: block;
 	  height: 230px;
 	  margin: 0 auto;

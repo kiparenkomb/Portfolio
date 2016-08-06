@@ -172,6 +172,7 @@ a:visited { text-decoration: none }
 	color: #fff;
 	padding: 0 0 0 15px;
 	text-transform: uppercase;
+	text-shadow: 1px 1px 2px black, 0 0 1em #fff;
 }
 #header-section .header-menu ul li a:hover {
     color: #FF3333;
@@ -186,16 +187,16 @@ a:visited { text-decoration: none }
 
 
 /*--- Alegian-top ---*/
-#alegain-top-section {
+#my_job-top-section {
   height: auto;
   position: relative;
 }
-#alegain-top-section.alegain-top-section-bg {
+#my_job-top-section.my_job-top-section-bg {
   background-attachment: fixed;
-  background-image: url("../img/alegain-top/alegain_top_bg.jpg");
+  background-image: url("../img/my_job-top/top_images.jpg");
   z-index: 1;
 }
-#alegain-top-section.alegain-top-section-bg:after {
+#my_job-top-section.my_job-top-section-bg:after {
   background: #2c363d none repeat scroll 0 0;
   content: "";
   height: 100%;
@@ -206,18 +207,18 @@ a:visited { text-decoration: none }
   width: 100%;
   z-index: -1;
 }
-#alegain-top-section .alegain-top-wrap {
+#my_job-top-section .my_job-top-wrap {
   margin-top: 160px;
   margin-bottom: 160px;
 }
-#alegain-top-section .alegain-top-wrap h2{
+#my_job-top-section .my_job-top-wrap h2{
 	font-size:38px;
 	font-weight:bold;
 	text-transform:uppercase;
 	color:#fff;
 	text-align:center;
 }
-#alegain-top-section .alegain-top-wrap p {
+#my_job-top-section .my_job-top-wrap p {
   color: #fff;
   font-size: 18px;
   margin-top: 35px;
@@ -225,10 +226,10 @@ a:visited { text-decoration: none }
 }
 
 
-#alegain-top-section .alegain-top-form {
+#my_job-top-section .my_job-top-form {
 	margin-bottom:60px;
 }
-#alegain-top-section .alegain-top-image {
+#my_job-top-section .my_job-top-image {
 	margin: 93px auto 0;
 	position: relative;
 	width: 450px;
@@ -249,13 +250,13 @@ a:visited { text-decoration: none }
 	padding: 0 125px 0 0;
 }
 
-.alegain-top-form form {
+.my_job-top-form form {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-.alegain-top-form input[type="email"] {
+.my_job-top-form input[type="email"] {
 	border: none;
 	border-radius: 5px 0 0 5px;
   	height: 40px;
@@ -263,11 +264,11 @@ a:visited { text-decoration: none }
 	padding-left: 15px;
 }
 
-.alegain-top-form .submit-wrap {
+.my_job-top-form .submit-wrap {
 	display: inline;
 }
 
-.alegain-top-form form .btn-submit {
+.my_job-top-form form .btn-submit {
 	background: #2C363D none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0 5px 5px 0;
@@ -295,12 +296,12 @@ a:visited { text-decoration: none }
 .section-heading span {
   font-weight: bold;
 }
-#alegain-work .single-work {
+#my_job-work .single-work {
   overflow: hidden;
   padding-bottom: 60px;
 }
 
-#alegain-work .single-work i {
+#my_job-work .single-work i {
 	display: block;
 	float: left;
 	padding-right: 10px;
@@ -308,20 +309,20 @@ a:visited { text-decoration: none }
 	font-size: 35px;
 }
 
-#alegain-work .single-work h3 {
+#my_job-work .single-work h3 {
 	color: #2C363D;
 	float: right;
 	width: 77%;	
 }
 
-#alegain-work .single-work p {
+#my_job-work .single-work p {
 	color: #2C363D;
 	float: right;
 	width: 77%;
 	
 }
 
-#alegain-work .single-work-img {
+#my_job-work .single-work-img {
 	left: -50px;
 	position: absolute;
 	top: 0px;
@@ -338,23 +339,23 @@ a:visited { text-decoration: none }
 /*--- section-heading ---*/
 
 
-.alegain-featured-bg{
+.my_job-featured-bg{
 	background: #2C363D;
 
 }
 
-#alegain-featured .section-heading h2 {
+#my_job-featured .section-heading h2 {
 	color: #fff;
 	font-size: 33px;
 	font-weight: bold;
 	margin-top: 100px;
 	text-transform: uppercase;
 }
-#alegain-featured .section-heading p {
+#my_job-featured .section-heading p {
 	color: #fff;
 	font-size: 14px;
 }
-#alegain-featured .section-heading h2 {
+#my_job-featured .section-heading h2 {
 	color: #fff;
 	font-size: 30px;
 	font-weight: normal;
@@ -363,21 +364,21 @@ a:visited { text-decoration: none }
 .single-feature h3 {
   color: #fff;
 }
-#alegain-featured .section-heading h2 span {
+#my_job-featured .section-heading h2 span {
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .single-feature p {
     color: #fff;
 }
-#alegain-featured .section-heading.normal h2 {
+#my_job-featured .section-heading.normal h2 {
 	font-size: 36px;
 	font-weight: normal;
 	text-transform: none;
 	margin-bottom: 60px;
 	
 } 
-#alegain-featured .section-heading.less-margin h2 {
+#my_job-featured .section-heading.less-margin h2 {
 	margin-top: 60px;
 } 
 
@@ -400,7 +401,61 @@ a:visited { text-decoration: none }
   color: #fff;
 }
 
-/*--- alegain-featured ---*/
+/* --- my_job-search --- */
+
+#my_job-search .single-search {
+  overflow: hidden;
+  padding-bottom: 60px;
+}
+
+#my_job-search .single-search i {
+	display: block;
+	float: left;
+	padding-left: 45px;
+	color: #FF3333;
+	font-size: 35px;
+}
+
+#my_job-search .single-search h3 {
+	color: #2C363D;
+	float: right;
+	width: 77%;	
+}
+
+#my_job-search .single-search p {
+	color: #2C363D;
+	float: right;
+	width: 77%;
+	
+}
+
+
+#my_job-search .single-search-img {
+	width: 400px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.large {
+	width: 300px; height: 300px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 51, 51, 0.85), 
+	0 0 7px 7px rgba(0, 0, 0, 0.25), 
+	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	background: url(../img/my_job-search/timetable.jpg) no-repeat;
+	display: none;
+}
+
+.small {
+	display: block;
+	width: 400px;
+	border: 3px solid #FF3333;
+	border-radius: 5px;
+}
+
+
+/*--- my_job-featured ---*/
 
 .single-feature .featured-img {
 	height: 82px;
@@ -446,6 +501,7 @@ a:visited { text-decoration: none }
 .campaing-image.circle2 i {
   font-size: 70px;
   color: #FF3333;
+  margin-left: -9px;
 }
 
 .campaing-image.circle2:hover {
@@ -504,7 +560,7 @@ a:visited { text-decoration: none }
 }
 
 /*--- the footer ---*/
-#footer-area.alegain-footer-section-bg {
+#footer-area.my_job-footer-section-bg {
   background: #2c363d none repeat scroll 0 0;
 }
 
