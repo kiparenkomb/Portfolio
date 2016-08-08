@@ -262,10 +262,9 @@ header nav ul {
 	top: 50%;
 	left: 50%;
 	text-align: center;
-	-webkit-box-sizing: translate(-50%,-50%);
-	-moz-box-sizing: translate(-50%,-50%);
-	-ms-box-sizing: translate(-50%,-50%);
-	box-sizing: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
 
@@ -1034,10 +1033,9 @@ footer .information {
 		top: 0;
 		left: 0;
 		text-align: center;
-		-webkit-box-sizing: translate(0,0);
-		-moz-box-sizing: translate(0,0);
-		-ms-box-sizing: translate(0,0);
-		box-sizing: translate(0,0);
+		-webkit-transform: translate(0,0);
+		-moz-transform: translate(0,0);
+		-ms-transform: translate(0,0);
 		transform: translate(0,0);
 	}
 
@@ -1360,10 +1358,6 @@ footer .information {
 	
 	/* ------animation news------ */
 	
-	.news .one .step {
-	   
-	}
-	
 	@-webkit-keyframes oneB {
 	    from {
 	        transform: rotate(0deg);
@@ -1387,10 +1381,6 @@ footer .information {
 	    animation-timing-function: ease-in;
 	}
 	
-	.news .two .step {
-		
-		}
-	
 	@-webkit-keyframes twoB {
 	    0%{transform: scale(1);}
 		50% {transform: scale(1.5);}
@@ -1410,7 +1400,7 @@ footer .information {
 	
 	.news .three .step {
 		transform: scale(0);
-		}
+	}
 	
 	@-webkit-keyframes threeB {
 	    from {
@@ -1436,8 +1426,8 @@ footer .information {
 	}
 
 	.news .four .step {
-			transform: translateY(70px);
-		}
+		transform: translateY(70px);
+	}
 	
 	@-webkit-keyframes fourB {
 	    from {
@@ -1461,23 +1451,7 @@ footer .information {
 	    animation: fourB 1s forwards;
 	    animation-timing-function: ease;
 	}
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1495,8 +1469,4 @@ footer .information {
 		width: 1020px;
 		padding: 0px;	
 	}
-
-
 }
-
-
