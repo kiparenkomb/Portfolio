@@ -29,6 +29,11 @@ header {
   margin-right:25px;
 }
 
+.nav li:hover {
+text-shadow: 0px 0px 5px #f1d067, 0 0 1em #f1d067;
+cursor: pointer;
+}
+
 .jumbotron{
 	background:url(../img/city_up.jpg);
 	height: 550px;
@@ -45,10 +50,10 @@ header {
 	color: #333;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-  	font-size: 70px;
-  	text-transform: uppercase;
-  	margin-top: 0;
-  	margin-bottom: 80px;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 80px;
 }
 
 .btn-main{
@@ -61,6 +66,10 @@ header {
   text-decoration: none;
   text-transform: uppercase;
 	padding:16px 40px;
+}
+
+.btn-main:hover {
+  text-shadow: 0px 0px 5px #f1d067, 0 0 1em #f1d067;
 }
 
 .supporting {
@@ -99,11 +108,18 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 10px;
+  font-weight: bolder;
   border:1px solid #333333;
   letter-spacing: 1.3px;
   padding: 16px 50px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.btn-support:hover {
+  background: #000;
+  color: #fff;
+  text-shadow: 0px 0px 5px #f1d067, 0 0 1em #f1d067;
 }
 
 .clearfix{
@@ -118,12 +134,12 @@ header {
 }
 
 .map h2 {
-  color: #333;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 50px;
-  text-shadow: 0px 0px 5px #fff, 0 0 1em #fff
+  text-shadow: 0px 0px 5px #f1d067, 0 0 1em #f1d067;
 }
 
 /* .map h2:after {
@@ -143,8 +159,9 @@ header {
   width: 60%;
   height: 400px;
   margin: 0 auto;
-  border: 1px solid #333333;
+  border: 5px solid #f1d067;
   border-radius: 5px;
+  box-shadow:  0px 0px 5px #f1d067, 0 0 1em #f1d067;
 }
 
 footer {
