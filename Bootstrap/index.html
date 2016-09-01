@@ -8,6 +8,7 @@
 		<title>Your Website</title>
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,14 +33,17 @@
 					
 				<!-- .header-menu -->
 				<div class="col-md-9 pd-right-0">
-					<div class="header-menu">
-						<ul id="menu">
-							<li><a href="javascript:void(0)">HOME</a></li>
-							<li><a href="javascript:void(0)">PRODUCTS</a></li>
-							<li><a href="javascript:void(0)">F.A.Q.</a></li>
-							<li><a href="javascript:void(0)">COMPANY</a></li>
-							<li><a href="javascript:void(0)">ABOUT</a></li>
-							<li><a href="javascript:void(0)">CONTACT</a></li>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="header-menu" data-target="responsive-menu"></button>
+					</div>
+					<div class="header-menu" id="responsive-menu">
+						<ul id="menu" class="nav nav-pills">
+							<li role="presentation" class="active"><a href="javascript:void(0)">HOME</a></li>
+							<li role="presentation"><a href="javascript:void(0)">PRODUCTS</a></li>
+							<li role="presentation"><a href="javascript:void(0)">F.A.Q.</a></li>
+							<li role="presentation"><a href="javascript:void(0)">COMPANY</a></li>
+							<li role="presentation"><a href="javascript:void(0)">ABOUT</a></li>
+							<li role="presentation"><a href="javascript:void(0)">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
@@ -139,15 +143,27 @@
 						<div class="info-inner">
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
-									<div class="get-product">
-										<img src="img/clock_icon.png" alt="">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
+									<div class="media">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/clock_icon.png" alt="">
+											</a>
+										</div>
+										<div class="media-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
+										</div>
 									</div>
 								</div>
 								<div class="col-md-6 col-sm-6">
-									<div class="get-product line">
-										<img src="img/coffee_icon.png" alt="">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
+									<div class="media line">
+										<div class="media-left">
+											<a href="#">
+												<img class="media-object" src="img/coffee_icon.png" alt="">
+											</a>
+										</div>
+										<div class="media-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum iaculis arcu ut interdum. Aliquam erat volutpat.</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -167,13 +183,19 @@
 				
 					<!-- .footer-left -->
 					<div class="col-md-5 col-sm-5">
-						<div class="footer-left">
-							<img src="img/twitter_icon.png" alt="">
-							<h4>Twitter</h4>
-							<p>Follow Us</p>
-							<div class="follow">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<a href="#">Posted 4 Days Ago</a>
+						<div class="media footer-left">
+							<div class="media-left">
+								<a href="javascript:void(0)">
+									<img class="media-object" src="img/twitter_icon.png" alt="">
+								</a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Twitter</h4>
+								<p>Follow Us</p>
+								<div class="follow">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									<a href="javascript:void(0)">Posted 4 Days Ago</a>
+								</div>
 							</div>
 						</div>
 					</div>
