@@ -1,7 +1,6 @@
 $(window).on('load',function(){
   $('.carousel').slick({
-    arrows: true,
-    dots: true
+    arrows: true
   });
   $('.loder').fadeOut('slow');
 });

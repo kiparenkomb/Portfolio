@@ -74,6 +74,139 @@ body {
 	transition: transform .3s ease-in;
 }
 
+.hero-baner {
+	background: url('../img/background.jpg');
+	background-size: cover;
+	position: relative;
+}
+.hero-baner:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 8px;
+	background: url('../img/banner-border.png') repeat-x;
+}
+
+.carousel {
+	max-width: 1024px;
+	padding: 0 25px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+.carousel_slide-holder {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -moz-flex;
+	display: flex;
+}
+
+.slick-arrow{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 10%;
+ height: 100%;
+ background: none;
+ text-indent: -9999px;
+ padding: 0;
+ border:0;
+ outline: 0;
+ cursor: pointer;
+ z-index: 2;
+ }
+ .slick-arrow:after{
+ content: '';
+ position: absolute;
+ left: 0;
+ top: 50%;
+ width: 25px;
+ height: 63px;
+ background: url('../img/slider-arrows.png') no-repeat;
+ transform: translateY(-50%);
+ }
+
+
+ .slick-arrow.slick-next{
+  left: auto;
+  right: 0;
+ }
+ .slick-arrow.slick-next:after{
+  background-position: 100% 0;
+  left: auto;
+  right: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .loder {
 	position: fixed;
@@ -94,3 +227,6 @@ body {
 .loder span {
 	margin: auto;
 }
+
+
+
